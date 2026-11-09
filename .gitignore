@@ -1,0 +1,11 @@
+# secrets and local config (never commit API keys)
+backend/veroflow_env.sh
+.env
+# run output and vector DB
+backend/storage/
+# build / cache
+__pycache__/
+*.pyc
+node_modules/
+.next/
+.venv/
