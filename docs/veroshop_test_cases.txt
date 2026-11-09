@@ -1,0 +1,34 @@
+==== TC-01 ====
+TC-01
+Open the application, log in using the existing account credentials, and verify that the home screen is displayed.
+Expected: Login should succeed, and the home screen should be displayed.
+
+==== TC-02 ====
+TC-02
+Search for Pizza, open Margherita Pizza and verify that its name and price are displayed correctly.
+Expected: Relevant search results should appear, and the selected product's name and price should be displayed correctly.
+
+==== TC-03 ====
+TC-03
+Add Pepperoni Feast and Margherita Pizza to the cart. Increase the quantity of Pepperoni Feast to 2 and verify both products in the cart.
+Expected: Both products should appear in the cart, and Pepperoni Feast should have the correct quantity of 2.
+
+==== TC-04 ====
+TC-04
+Search for Pepperoni Feast, open its details, set the quantity to 2, add it to the cart, proceed to checkout, complete the order and verify the order confirmation.
+Expected: Order should be placed successfully, and the order confirmation screen should display the correct order information.
+
+==== TC-05 ====
+TC-05
+Place an order for Margherita Pizza, open My Orders and verify that the newly placed order appears with the correct product and order status.
+Expected: Newly placed order should appear in My Orders with the correct product details and order status.
+
+==== TC-06 ====
+TC-06
+Open Settings, change the application language to another available language, and verify that the interface text is updated.
+Expected: Application language should change successfully, and the interface text should be displayed in the selected language.
+
+==== TC-07 ====
+TC-07
+Open Settings, enable a notification preference, save the changes if required, and verify that the preference remains enabled when reopening Settings.
+Expected: Notification preference should be saved successfully and remain enabled when reopening Settings.

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "TC-01",
+    "title": "Login with the existing account",
+    "goal": "Open the application, log in using the existing account credentials, and verify that the home screen is displayed.",
+    "expected": [
+      "Login should succeed",
+      "The home screen should be displayed"
+    ]
+  },
+  {
+    "id": "TC-02",
+    "title": "Search and open a product",
+    "precondition": "Log in with the existing account credentials (the app starts logged out).",
+    "goal": "Search for Pizza, open Margherita Pizza and verify that its name and price are displayed correctly.",
+    "expected": [
+      "Relevant search results should appear",
+      "The product name \"Margherita Pizza\" is displayed",
+      "The selected product's price is displayed correctly"
+    ]
+  },
+  {
+    "id": "TC-03",
+    "title": "Add two products to the cart and change a quantity",
+    "precondition": "Log in with the existing account credentials (the app starts logged out).",
+    "goal": "Add Pepperoni Feast and Margherita Pizza to the cart. Increase the quantity of Pepperoni Feast to 2 and verify both products in the cart.",
+    "expected": [
+      "\"Pepperoni Feast\" appears in the cart",
+      "\"Margherita Pizza\" appears in the cart",
+      "Pepperoni Feast has the correct quantity of 2"
+    ]
+  },
+  {
+    "id": "TC-04",
+    "title": "Checkout and order confirmation",
+    "precondition": "Log in with the existing account credentials (the app starts logged out).",
+    "goal": "Search for Pepperoni Feast, open its details, set the quantity to 2, add it to the cart, proceed to checkout, complete the order and verify the order confirmation.",
+    "expected": [
+      "The order should be placed successfully",
+      "The order confirmation screen displays the correct order information"
+    ]
+  },
+  {
+    "id": "TC-05",
+    "title": "Placed order appears in My Orders",
+    "precondition": "Log in with the existing account credentials (the app starts logged out).",
+    "goal": "Place an order for Margherita Pizza, open My Orders and verify that the newly placed order appears with the correct product and order status.",
+    "expected": [
+      "The newly placed order appears in My Orders",
+      "\"Margherita Pizza\" is shown in the order",
+      "The order shows an order status"
+    ]
+  },
+  {
+    "id": "TC-06",
+    "title": "Change the application language",
+    "precondition": "Log in with the existing account credentials (the app starts logged out).",
+    "goal": "Open Settings, change the application language to another available language, and verify that the interface text is updated.",
+    "expected": [
+      "The application language changes successfully",
+      "The interface text is displayed in the selected language"
+    ]
+  },
+  {
+    "id": "TC-07",
+    "title": "Notification preference persists",
+    "precondition": "Log in with the existing account credentials (the app starts logged out).",
+    "goal": "Open Settings, enable a notification preference, save the changes if required, and verify that the preference remains enabled when reopening Settings.",
+    "expected": [
+      "The notification preference is saved successfully",
+      "The notification preference remains enabled when Settings is reopened"
+    ]
+  }
+]
